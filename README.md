@@ -17,13 +17,15 @@ $ cd ../functions && yarn
 Next, let's make your app work on your computer😙
 ```shell
 $ cd src && yarn build
-$ cd .. && cp -R functions/nuxt/dist/ public/
+$ cd .. && mkdir public
+$ cp -R functions/nuxt/dist/ public/
 $ firebase serve --only hosting,functions
 ```
 
 ## How to deploy
 ```shell
 $ cd src && yarn build
-$ cd .. && cp -R functions/nuxt/dist/ public/
+$ cd .. && mkdir public
+$ cp -R functions/nuxt/dist/ public/
 $ firebase deploy --only hosting,functions
 ```
