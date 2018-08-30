@@ -1,6 +1,9 @@
 # Nuxt Express Firebase Template
 
-This is the template to create web applications with [Nuxt.js](https://nuxtjs.org/), [Express](http://expressjs.com/) and [Firebase](https://firebase.google.com/).
+This is the template to create web applications with
+* [Nuxt.js](https://nuxtjs.org/)
+* [Express](http://expressjs.com/)
+* [Firebase](https://firebase.google.com/).
 
 ## Directories
 * functions: For Firebase Cloud Functions
