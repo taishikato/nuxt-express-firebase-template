@@ -1,8 +1,8 @@
 {
-  "name": "src",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "taishikato <taishi.k0903@gmail.com>",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
   "private": true,
   "scripts": {
     "dev": "nuxt",

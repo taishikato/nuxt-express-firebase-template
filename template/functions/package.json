@@ -1,6 +1,7 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "{{ name }}",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
   "private": true,
   "dependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",

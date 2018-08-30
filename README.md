@@ -11,8 +11,9 @@ This is the template to create web applications with [Nuxt.js](https://nuxtjs.or
 First of all, you need to set your FIrebase project with Firebase CLI.  
 After that, you have to install npm packages.
 ```shell
-$ cd src && yarn
-$ cd ../functions && yarn
+$ vue init ambitiouzzz/nuxt-express-firebase-template my-project
+$ cd my-project
+# install dependencies in src and functions with npm install Or yarn
 ```
 Next, let's make your app work on your computer😙
 ```shell
@@ -24,8 +25,5 @@ $ firebase serve --only hosting,functions
 
 ## How to deploy
 ```shell
-$ cd src && yarn build
-$ cd .. && mkdir public
-$ cp -R functions/nuxt/dist/ public/
 $ firebase deploy --only hosting,functions
 ```
