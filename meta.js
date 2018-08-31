@@ -21,5 +21,6 @@ module.exports = {
       'message': 'Author'
     },
   },
+  skipInterpolation: 'src/**/*.vue',
   completeMessage: '{{#inPlace}}To get started:\n\n Please take a look at https://github.com/ambitiouzzz/nuxt-express-firebase-template/blob/master/README.md'
 };
